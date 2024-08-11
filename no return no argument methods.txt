@@ -1,0 +1,337 @@
+class Main :
+method1  :hello world 
+method2 :print 
+method3 :print 
+method4  :print 
+
+main() :
+all method call 
+
+public class Main {
+    void method1(){
+        System.out.println("mohit");
+    }
+   void method2(){
+       System.out.println("rohit");
+   }
+   void method3(){
+       System.out.println("virat");
+   }
+   void method4(){
+       System.out.println("dhoni");
+   }
+
+
+    public static void main(String[] args) {
+       Main p = new Main ();
+       p.method1();
+        p.method2();
+        p.method3();
+        p.method4();
+
+    }
+}
+-------------------------------------------------------------------
+class Main :
+add() :two number addition
+sub() :two number subs
+div() :two number div
+multi() :two number multiplication
+mod() :two number modular 
+
+main() :
+all method call 
+import java.util.Scanner;
+public class Main {
+    void add(){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a+b;
+        System.out.println("sum of Two numbers :"+c);
+    }
+   void sub(){
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("enter the value of a : ");
+       int a = scanner.nextInt();
+       System.out.print("enter the value of b : ");
+       int b = scanner.nextInt();
+       int c;
+       c = a-b;
+       System.out.println("diffrance of Two numbers :"+c);
+   }
+   void div(){
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("enter the value of a : ");
+       int a = scanner.nextInt();
+       System.out.print("enter the value of b : ");
+       int b = scanner.nextInt();
+       int c;
+       c = a/b;
+       System.out.println("divide of Two numbers :"+c);
+   }
+   void mod(){
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("enter the value of a : ");
+       int a = scanner.nextInt();
+       System.out.print("enter the value of b : ");
+       int b = scanner.nextInt();
+       int c;
+       c = a%b;
+       System.out.println("modular of Two numbers :"+c);
+   }
+   void multi(){
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("enter the value of a : ");
+       int a = scanner.nextInt();
+       System.out.print("enter the value of b : ");
+       int b = scanner.nextInt();
+       int c;
+       c = a*b;
+
+       System.out.println("product of Two numbers :"+c);
+   }
+
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       Main p = new Main ();
+       p.add();
+        p.sub();
+        p.div();
+        p.mod();
+        p.multi();
+
+    }
+}
+-------------------------------------------------------------------
+class A :
+method1  :hello world 
+method2 :print 
+method3 :print 
+method4  :print 
+
+class Main :
+main() :
+all method call 
+import java.util.Scanner;
+
+class A{
+    void method1(){
+        System.out.println("mohit");
+    }
+    void method2(){
+        System.out.println("rohit");
+    }
+    void method3(){
+        System.out.println("virat");
+    }
+    void method4(){
+        System.out.println("dhoni");
+    }
+
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       A p = new A ();
+        p.method1();
+        p.method2();
+        p.method3();
+        p.method4();
+
+    }
+}
+-------------------------------------------------------------------
+class A :
+add() :two number addition
+sub() :two number subs
+div() :two number div
+multi() :two number multiplication
+mod() :two number modular 
+
+class Main :
+main() :
+all method call 
+
+import java.util.Scanner;
+
+class A{
+    void add(){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a+b;
+        System.out.println("sum of Two numbers :"+c);
+    }
+    void sub(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a-b;
+        System.out.println("diffrance of Two numbers :"+c);
+    }
+    void div(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a/b;
+        System.out.println("divide of Two numbers :"+c);
+    }
+    void mod(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a%b;
+        System.out.println("modular of Two numbers :"+c);
+    }
+    void multi(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a*b;
+
+        System.out.println("product of Two numbers :"+c);
+    }
+
+}
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       A p = new A ();
+       p.add();
+        p.sub();
+        p.div();
+        p.mod();
+        p.multi();
+
+    }
+}
+-------------------------------------------------------------------
+class A :
+add() :two number addition
+
+class B
+sub() :two number subs
+
+class C
+div() :two number div
+
+class D
+multi() :two number multiplication
+
+class E 
+mod() :two number modular 
+
+class Main :
+main() :
+all method call 
+
+import java.util.Scanner;
+
+class A{
+    void add(){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a+b;
+        System.out.println("sum of Two numbers :"+c);
+    }
+}
+    class B {
+        void sub() {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("enter the value of a : ");
+            int a = scanner.nextInt();
+            System.out.print("enter the value of b : ");
+            int b = scanner.nextInt();
+            int c;
+            c = a - b;
+            System.out.println("diffrance of Two numbers :" + c);
+        }
+    }
+    class C {
+        void div() {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("enter the value of a : ");
+            int a = scanner.nextInt();
+            System.out.print("enter the value of b : ");
+            int b = scanner.nextInt();
+            int c;
+            c = a / b;
+            System.out.println("divide of Two numbers :" + c);
+        }
+    }
+    class D {
+        void mod() {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("enter the value of a : ");
+            int a = scanner.nextInt();
+            System.out.print("enter the value of b : ");
+            int b = scanner.nextInt();
+            int c;
+            c = a % b;
+            System.out.println("modular of Two numbers :" + c);
+        }
+    }
+    class E{
+    void multi(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the value of a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the value of b : ");
+        int b = scanner.nextInt();
+        int c;
+        c = a*b;
+
+        System.out.println("product of Two numbers :"+c);
+    }
+
+}
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       A p = new A ();
+        B q = new B ();
+        C r = new C ();
+        D s = new D ();
+        E t = new E ();
+
+        
+       p.add();
+        q.sub();
+        r.div();
+        s.mod();
+        t.multi();
+
+    }
+}
